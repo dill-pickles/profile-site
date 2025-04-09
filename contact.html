@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/projects/profile-site/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>pmvw</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <main>
+      <section class="contactform">
+        <h2>contact</h2>
+        <form action="#" method="post">
+          <div>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required />
+          </div>
+          <br />
+          <div>
+            <label for="phone">Phone:</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="123-456-7890"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="message">Message:</label><br />
+            <textarea name="message" id="message" rows="4" required></textarea>
+          </div>
+          <br />
+          <div>
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+      <br />
+      <section>
+        <h3>Thanks For Visiting!</h3>
+        <img
+          src="/projects/profile-site/images/dorp.png"
+          alt="friendly mini-android bot"
+          width="150"
+        />
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+body {
+  background-color: aliceblue;
+  padding: 16px;
+  margin: 8px;
+}
+
+h1 {
+  color: #3700ff;
+  text-align: center;
+  font-family: "Trebuchet MS";
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Trebuchet MS";
+}
+
+h3 {
+  color: #000000;
+  font-family: "Trebuchet MS";
+}
+
+p {
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+}
+
+li {
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+}
+
+form {
+  font-family: "Trebuchet MS";
+  font-size: 16px;
+}
+
+nav {
+  font-family: "Trebuchet MS";
+  font-size: 16px;
+}
+
+/* greeting style */
+.greeting {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 5px;
+}
+
+.greeting {
+  color: rgb(0, 255, 136);
+  font-weight: bold;
+}
+
+/* contact form */
+.contactform {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 15px;
+  max-width: 50%;
+}
